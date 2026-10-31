@@ -51,7 +51,6 @@ function useNavGroups(): NavGroup[] {
                     external: true,
                     meta: stats ? `${formatCompact(stats.stars)} stars` : undefined,
                 },
-                { label: 'Reddit', description: 'Chat with other Aello users on r/Flow_Official.', href: 'https://reddit.com/r/flow_official', external: true },
                 { label: 'About', description: 'Why Aello exists and who builds it.', href: '/about' },
             ],
         },

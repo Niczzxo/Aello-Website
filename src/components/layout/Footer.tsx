@@ -33,7 +33,6 @@ const columns: { title: string; links: FooterLink[] }[] = [
     {
         title: 'Get Help',
         links: [
-            { label: 'r/Flow_Official', href: 'https://reddit.com/r/flow_official', external: true },
             { label: 'Report an Issue', href: 'https://github.com/Niczzxo/Aello-Native/issues', external: true },
             { label: 'Verify Your APK', href: 'https://github.com/Niczzxo/Aello-Native#cert', external: true },
             { label: 'Security', href: 'https://github.com/Niczzxo/Aello-Native/security/policy', external: true },
@@ -47,17 +46,8 @@ const aboutLinks: FooterLink[] = [
     { label: 'DMCA', href: '/dmca' },
 ]
 
-function RedditIcon({ className }: { className?: string }) {
-    return (
-        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
-            <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.508 1.183-.833 2.822-1.393 4.61-1.48l.84-3.922c.046-.216.257-.354.472-.313l3.05.642a1.24 1.24 0 0 1 1.049-.937zM16 11.23c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm-8 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm0 5.46c2.08 0 3.754-.925 3.968-1.077l-.608-.813c-.11.082-1.57.94-3.36.94-1.789 0-3.25-.858-3.36-.94l-.608.813c.214.152 1.888 1.077 3.968 1.077z" />
-        </svg>
-    )
-}
-
 const socials = [
     { label: 'GitHub', href: 'https://github.com/Niczzxo/Aello-Native', icon: Github },
-    { label: 'Reddit', href: 'https://reddit.com/r/flow_official', icon: RedditIcon },
     { label: 'Translate on Weblate', href: 'https://hosted.weblate.org/engage/flow/', icon: Languages },
 ]
 
