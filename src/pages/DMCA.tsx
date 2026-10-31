@@ -43,7 +43,7 @@ const sections: LegalSection[] = [
         id: 'contact',
         title: 'Contact',
         content: (
-            <p>Open an issue on <a href="https://github.com/Niczzxo/Aello-Native/issues" target="_blank" rel="noopener noreferrer">GitHub</a>, or post on <a href="https://reddit.com/r/flow_official" target="_blank" rel="noopener noreferrer">r/Flow_Official</a>. For anything you'd rather not post publicly, <a href="https://www.reddit.com/message/compose?to=/r/flow_official" target="_blank" rel="noopener noreferrer">message the subreddit's moderators</a>.</p>
+            <p>Open an issue on <a href="https://github.com/Niczzxo/Aello-Native/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
         ),
     },
 ]
