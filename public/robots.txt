@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://flow-tube.org/sitemap.xml
+Sitemap: https://aello-music.vercel.app/sitemap.xml
