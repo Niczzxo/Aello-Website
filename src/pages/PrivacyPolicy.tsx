@@ -151,7 +151,7 @@ const sections: LegalSection[] = [
         content: (
             <>
                 <p>When this policy changes, the date at the top changes, and the edit is visible in the website's public repository on GitHub.</p>
-                <p>Questions? Open an issue on <a href="https://github.com/Niczzxo/Aello-Native/issues" target="_blank" rel="noopener noreferrer">GitHub</a> or ask on <a href="https://reddit.com/r/flow_official" target="_blank" rel="noopener noreferrer">r/Flow_Official</a>.</p>
+                <p>Questions? Open an issue on <a href="https://github.com/Niczzxo/Aello-Native/issues" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
             </>
         ),
     },

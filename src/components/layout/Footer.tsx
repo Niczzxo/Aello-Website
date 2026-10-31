@@ -183,18 +183,7 @@ export function Footer() {
                         </p>
                     </div>
 
-                    <p className="mt-4 text-sm text-text-muted max-w-2xl">
-                        Parts of this website's design were inspired by{' '}
-                        <a
-                            href="https://zen-browser.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="underline decoration-text-muted underline-offset-4 hover:text-text-primary hover:decoration-text-primary transition-colors"
-                        >
-                            Zen Browser's website
-                        </a>
-                        .
-                    </p>
+                    
                     <p className="mt-2 text-sm text-text-muted max-w-2xl">{AFFILIATION_NOTICE}</p>
                 </div>
 
