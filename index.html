@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/aello-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Aello - A YouTube Client That Learns With You</title>
+    <meta name="description" content="Aello is a modern, privacy-first Android YouTube client with an on-device recommendation engine. No ads, no tracking, just personalized content discovery." />
+    <meta name="keywords" content="YouTube client, Android, privacy, neural engine, recommendations, open source, no ads" />
+    <meta name="author" content="Md Riyazul Islam" />
+    
+    <meta property="og:title" content="Aello - A YouTube Client That Learns With You" />
+    <meta property="og:description" content="A modern, privacy-first Android YouTube client with an on-device recommendation engine." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://flow-tube.org" />
+    <meta property="og:image" content="https://flow-tube.org/og-image.png" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aello - A YouTube Client That Learns With You" />
+    <meta name="twitter:description" content="A modern, privacy-first Android YouTube client with an on-device recommendation engine." />
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <meta name="theme-color" content="#F7F6F3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)" />
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('flow-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+
+      window.addEventListener('error', function (event) {
+        var el = event.target;
+        var url = el && (el.src || el.href);
+        if (!url || url.indexOf('/assets/') === -1) return;
+        try {
+          if (sessionStorage.getItem('flow-asset-retry')) return;
+          sessionStorage.setItem('flow-asset-retry', '1');
+        } catch (e) {
+          return;
+        }
+        location.reload();
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
