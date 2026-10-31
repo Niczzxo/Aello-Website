@@ -138,10 +138,8 @@ export function FAQ() {
                                 <span className="whitespace-nowrap font-serif italic font-normal tracking-[-0.01em] text-text-muted">answered.</span>
                             </h2>
                             <p className="text-text-secondary leading-relaxed">
-                                Didn't find yours? Ask on{' '}
-                                <Ext href="https://reddit.com/r/flow_official">r/Flow_Official</Ext>
-                                {' '}or{' '}
-                                <Ext href="https://github.com/Niczzxo/Aello-Native/issues">open an issue</Ext>.
+                                Didn't find yours?{' '}
+                                <Ext href="https://github.com/Niczzxo/Aello-Native/issues">Open an issue</Ext>.
                             </p>
                         </div>
                     </FadeIn>
