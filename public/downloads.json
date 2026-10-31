@@ -1,74 +1,13 @@
 {
   "android": {
-    "assets": [
-      {
-        "abi": "universal",
-        "flavor": "github",
-        "name": "Aello-v5.0.0-android7.apk",
-        "size": 31894251,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/5.0.0/Aello-v5.0.0-android7.apk"
-      },
-      {
-        "abi": "universal",
-        "flavor": "github",
-        "name": "Aello-v5.0.0-universal-uncompressed.apk",
-        "size": 109623798,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/5.0.0/Aello-v5.0.0-universal-uncompressed.apk"
-      },
-      {
-        "abi": "universal",
-        "flavor": "github",
-        "name": "Aello-v5.0.0-universal.apk",
-        "size": 39239100,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/5.0.0/Aello-v5.0.0-universal.apk"
-      }
-    ],
+    "assets": [],
     "checksums_url": null,
-    "published": "2026-10-31T11:43:17Z",
-    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/5.0.0",
-    "tag": "5.0.0",
-    "version": "5.0.0"
+    "published": "2026-10-31T19:40:28Z",
+    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.0",
+    "tag": "v3.0.0",
+    "version": "3.0.0"
   },
-  "desktop": {
-    "assets": [
-      {
-        "arch": "x64",
-        "format": "exe",
-        "name": "aello_1.5.0_windows-x86_64-setup.exe",
-        "os": "windows",
-        "size": 42148144,
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v1.5.0/aello_1.5.0_windows-x86_64-setup.exe"
-      },
-      {
-        "arch": "x64",
-        "format": "deb",
-        "name": "lastwave_1.5.0_amd64.deb",
-        "os": "linux",
-        "size": 16368490,
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v1.5.0/lastwave_1.5.0_amd64.deb"
-      },
-      {
-        "arch": "x64",
-        "format": "AppImage",
-        "name": "lastwave_1.5.0_x86_64.AppImage",
-        "os": "linux",
-        "size": 150907384,
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v1.5.0/lastwave_1.5.0_x86_64.AppImage"
-      },
-      {
-        "arch": "x64",
-        "format": "rpm",
-        "name": "lastwave_1.5.0_x86_64.rpm",
-        "os": "linux",
-        "size": 16852653,
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v1.5.0/lastwave_1.5.0_x86_64.rpm"
-      }
-    ],
-    "published": "2026-10-31T09:08:34Z",
-    "release_url": "https://github.com/Niczzxo/Aello-Desktop/releases/tag/v1.5.0",
-    "tag": "v1.5.0",
-    "version": "1.5.0"
-  },
+  "desktop": null,
   "izzy": {
     "version": "3.0.0",
     "version_code": "19",
@@ -96,84 +35,7 @@
     "version": "1.0.1"
   },
   "nightly": {
-    "android": {
-      "apk": {
-        "name": "flow-nightly-16.apk",
-        "size": 30583708,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/nightly/flow-nightly-16.apk"
-      },
-      "checksums_url": "https://github.com/Niczzxo/Aello-Native/releases/download/nightly/checksums.txt",
-      "commit": "96e4f3e",
-      "created": "2026-10-31T17:04:23Z",
-      "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/nightly",
-      "run": 16
-    },
-    "desktop": {
-      "created": "2026-10-31T14:14:06Z",
-      "run_url": "https://github.com/Niczzxo/Aello-Desktop/actions/runs/41209180764",
-      "commit": "5431ec0",
-      "artifacts": [
-        {
-          "name": "Aello-nightly-linux-arm64-appimage-6",
-          "size": 170580218,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-arm64-appimage-6.zip"
-        },
-        {
-          "name": "Aello-nightly-windows-x64-6",
-          "size": 13972288,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-windows-x64-6.zip"
-        },
-        {
-          "name": "Aello-nightly-linux-x64-deb-6",
-          "size": 21642173,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-x64-deb-6.zip"
-        },
-        {
-          "name": "Aello-nightly-windows-arm64-6",
-          "size": 12608014,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-windows-arm64-6.zip"
-        },
-        {
-          "name": "Aello-nightly-linux-arm64-deb-6",
-          "size": 20597271,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-arm64-deb-6.zip"
-        },
-        {
-          "name": "Aello-nightly-linux-x64-appimage-6",
-          "size": 180161494,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-x64-appimage-6.zip"
-        },
-        {
-          "name": "Aello-nightly-linux-x64-rpm-6",
-          "size": 21648256,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-x64-rpm-6.zip"
-        },
-        {
-          "name": "Aello-nightly-linux-arm64-rpm-6",
-          "size": 20596796,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-arm64-rpm-6.zip"
-        },
-        {
-          "name": "Aello-nightly-macos-x64-6",
-          "size": 21634811,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-macos-x64-6.zip"
-        },
-        {
-          "name": "Aello-nightly-linux-x64-flatpak-6",
-          "size": 30471365,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-linux-x64-flatpak-6.zip"
-        },
-        {
-          "name": "Aello-nightly-macos-arm64-6",
-          "size": 19829112,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/Aello-nightly-macos-arm64-6.zip"
-        },
-        {
-          "name": "flatpak-sources-6",
-          "size": 133601,
-          "url": "https://nightly.link/Niczzxo/Aello-Desktop/actions/runs/41209180764/flatpak-sources-6.zip"
-        }
-      ]
-    }
+    "android": null,
+    "desktop": null
   }
 }
