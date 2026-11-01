@@ -1,11 +1,54 @@
 {
   "android": {
-    "assets": [],
-    "checksums_url": null,
-    "published": "2026-10-31T19:40:28Z",
-    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.0",
-    "tag": "v3.0.0",
-    "version": "3.0.0"
+    "assets": [
+      {
+        "abi": "arm64-v8a",
+        "flavor": "github",
+        "name": "aello-arm64-v8a.apk",
+        "size": 22539792,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/aello-arm64-v8a.apk"
+      },
+      {
+        "abi": "armeabi-v7a",
+        "flavor": "github",
+        "name": "aello-armeabi-v7a.apk",
+        "size": 21522558,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/aello-armeabi-v7a.apk"
+      },
+      {
+        "abi": "arm64-v8a",
+        "flavor": "foss",
+        "name": "aello-foss-arm64-v8a.apk",
+        "size": 22463276,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/aello-foss-arm64-v8a.apk"
+      },
+      {
+        "abi": "armeabi-v7a",
+        "flavor": "foss",
+        "name": "aello-foss-armeabi-v7a.apk",
+        "size": 21446042,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/aello-foss-armeabi-v7a.apk"
+      },
+      {
+        "abi": "universal",
+        "flavor": "foss",
+        "name": "aello-foss.apk",
+        "size": 30623779,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/aello-foss.apk"
+      },
+      {
+        "abi": "universal",
+        "flavor": "github",
+        "name": "aello.apk",
+        "size": 30700295,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/aello.apk"
+      }
+    ],
+    "checksums_url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.1/checksums.txt",
+    "published": "2026-11-01T21:58:56Z",
+    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.1",
+    "tag": "v3.0.1",
+    "version": "3.0.1"
   },
   "desktop": null,
   "izzy": {
