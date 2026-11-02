@@ -77,4 +77,13 @@ if gh api "repos/$EXTENSION_REPO/contents/CHANGELOG.md" --jq .content | base64 -
   ' "$tmp/extension-changelog.md" >> "$tmp/entries.jsonl" || true
 fi
 
-jq -s . "$tmp/entries.jsonl" > "$OUT"
+# From now on the changelog shows only the newest release for Android and Desktop; Extension keeps its full history.
+jq -s '
+  def vkey: (((.content | capture("VERSION: (?<v>[0-9][0-9a-zA-Z.-]*)") | .v) // "0.0.0") | capture("^(?<a>[0-9]+)[.](?<b>[0-9]+)[.](?<c>[0-9]+)(?:-(?<pre>[a-zA-Z]+)(?<n>[0-9*]))?") | [(.a|tonumber), (.b|tonumber), (.c|tonumber), (if .pre then 0 else 1 end), (if (.n // "") == "" then 0 else (.n|tonumber) end)]);
+    def dkey: ((.content | capture("DATE: (?<d>[0-9-]+)") | .d) // "0000-00-00");
+      def is_pre: (((.status // "") | ascii_downcase) == "pre-release");
+        [ group_by(.platform)[] |
+            if .[0].platform == "extension" then .[]
+                else (map(select(is_pre | not)) | max_by([dkey, vkey]) // empty)
+                    end ]
+                    ' "$tmp/entries.jsonl" > "$OUT"
