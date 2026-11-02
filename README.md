@@ -3,11 +3,11 @@
   <h1>Aello — Website</h1>
   <p>Marketing site, changelog, and download page for <a href="https://github.com/Niczzxo/Aello-Native">Aello</a>, an open-source YouTube client.</p>
   <p>
-    <a href="https://flow-tube.org">flow-tube.org</a>
+    <a href="https://riyazulislam.dev">riyazulislam.dev</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/Niczzxo/Aello-Native">Aello (Android)</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/flowneuro/flow-desktop">Aello (Desktop)</a>
+    <a href="https://github.com/Niczzxo/Aello-Desktop">Aello (Desktop)</a>
   </p>
 </div>
 
@@ -77,7 +77,7 @@ which fetches the latest numbers and commits them back.
 ## Related repositories
 
 - [Niczzxo/Aello-Native](https://github.com/Niczzxo/Aello-Native) — the Android app
-- [flowneuro/flow-desktop](https://github.com/flowneuro/flow-desktop) — the desktop app (Rust, Tauri 2)
+- [Niczzxo/Aello-Desktop](https://github.com/Niczzxo/Aello-Desktop) — the desktop app (Rust, Tauri 2)
 
 ## License
 
@@ -85,10 +85,4 @@ GPL-3.0. See [LICENSE](LICENSE).
 
 ## Note
 
-The website was built with the assisstance of claude code
-
-## Credits
-
-Parts of this website's redesign (the two-tone sections, tone-aware buttons,
-navigation dropdowns and footer layout) were inspired by the design of
-[Zen Browser's website](https://zen-browser.app).
+The website was built with the assistance of claude code
