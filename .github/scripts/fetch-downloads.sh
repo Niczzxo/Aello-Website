@@ -25,7 +25,7 @@ gh api "repos/$ANDROID_REPO/releases/latest" --jq '{
   }]
 }' > "$tmp/android.json" || echo 'null' > "$tmp/android.json"
 
-gh api "repos/$DESKTOP_REPO/releases/latest" --jq '{
+gh api "repos/$DESKTOP_REPO/releases?per_page=1" --jq '.[0] | {
   version: (.tag_name | ltrimstr("v")),
   tag: .tag_name,
   published: .published_at,
