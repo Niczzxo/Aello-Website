@@ -51,75 +51,76 @@
     "version": "3.0.4"
   },
   "desktop": {
-    "version": "0.1.0-beta3",
-    "published": "2026-11-01T18:09:58Z",
-    "release_url": "https://github.com/Niczzxo/Aello-Desktop/releases/tag/v0.1.0-beta3",
     "assets": [
       {
-        "name": "Aello_0.1.0-beta3_windows_x64-setup.exe",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_windows_x64-setup.exe",
-        "size": 13429539,
-        "os": "windows",
-        "arch": "x64",
-        "format": "exe"
-      },
-      {
-        "name": "Aello_0.1.0-beta3_windows_arm64-setup.exe",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_windows_arm64-setup.exe",
-        "size": 12174446,
-        "os": "windows",
         "arch": "arm64",
-        "format": "exe"
-      },
-      {
+        "format": "dmg",
         "name": "Aello_0.1.0-beta3_darwin_aarch64.dmg",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_darwin_aarch64.dmg",
+        "os": "macos",
         "size": 18224736,
-        "os": "macos",
-        "arch": "arm64",
-        "format": "dmg"
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_darwin_aarch64.dmg"
       },
       {
+        "arch": "x64",
+        "format": "dmg",
         "name": "Aello_0.1.0-beta3_darwin_x64.dmg",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_darwin_x64.dmg",
-        "size": 19832530,
         "os": "macos",
-        "arch": "x64",
-        "format": "dmg"
+        "size": 19832530,
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_darwin_x64.dmg"
       },
       {
-        "name": "Aello_0.1.0-beta3_linux_amd64.AppImage",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_amd64.AppImage",
-        "size": 179501560,
-        "os": "linux",
-        "arch": "x64",
-        "format": "AppImage"
-      },
-      {
+        "arch": "arm64",
+        "format": "AppImage",
         "name": "Aello_0.1.0-beta3_linux_aarch64.AppImage",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_aarch64.AppImage",
+        "os": "linux",
         "size": 169863688,
-        "os": "linux",
-        "arch": "arm64",
-        "format": "AppImage"
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_aarch64.AppImage"
       },
       {
-        "name": "Aello_0.1.0-beta3_linux_amd64.deb",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_amd64.deb",
-        "size": 19677130,
-        "os": "linux",
         "arch": "x64",
-        "format": "deb"
+        "format": "AppImage",
+        "name": "Aello_0.1.0-beta3_linux_amd64.AppImage",
+        "os": "linux",
+        "size": 179501560,
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_amd64.AppImage"
       },
       {
-        "name": "Aello_0.1.0-beta3_linux_arm64.deb",
-        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_arm64.deb",
-        "size": 18701834,
+        "arch": "x64",
+        "format": "deb",
+        "name": "Aello_0.1.0-beta3_linux_amd64.deb",
         "os": "linux",
+        "size": 19677130,
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_amd64.deb"
+      },
+      {
         "arch": "arm64",
-        "format": "deb"
+        "format": "deb",
+        "name": "Aello_0.1.0-beta3_linux_arm64.deb",
+        "os": "linux",
+        "size": 18701834,
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_linux_arm64.deb"
+      },
+      {
+        "arch": "arm64",
+        "format": "exe",
+        "name": "Aello_0.1.0-beta3_windows_arm64-setup.exe",
+        "os": "windows",
+        "size": 12174446,
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_windows_arm64-setup.exe"
+      },
+      {
+        "arch": "x64",
+        "format": "exe",
+        "name": "Aello_0.1.0-beta3_windows_x64-setup.exe",
+        "os": "windows",
+        "size": 13429539,
+        "url": "https://github.com/Niczzxo/Aello-Desktop/releases/download/v0.1.0-beta3/Aello_0.1.0-beta3_windows_x64-setup.exe"
       }
-    ]
+    ],
+    "published": "2026-11-01T18:09:58Z",
+    "release_url": "https://github.com/Niczzxo/Aello-Desktop/releases/tag/v0.1.0-beta3",
+    "tag": "v0.1.0-beta3",
+    "version": "0.1.0-beta3"
   },
   "izzy": {
     "version": "3.0.0",
