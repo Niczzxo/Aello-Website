@@ -42,8 +42,8 @@ interface Downloads {
 }
 
 const FINGERPRINTS = [
-    { label: 'Stable releases and IzzyOnDroid', value: '43:22:29:4E:D4:CA:A2:D4:29:41:40:09:58:18:08:0F:FE:8A:CC:1F:BE:3C:DC:76:10:7D:F4:5C:52:86:BE:40' },
-    { label: 'Aello Nightly', value: 'E4:22:25:B5:AB:3A:C6:82:36:E5:45:67:EF:0C:48:78:AF:BA:FC:DD:3D:43:8F:BA:BA:34:3E:2D:70:42:5B:F0' },
+    { label: 'Stable releases and IzzyOnDroid', value: '22:C7:31:77:FC:D3:34:03:7D:5B:94:1B:DE:EB:A3:D2:5A:0B:F3:3B:B8:6D:16:57:4B:D0:27:01:77:8D:F2:BB' },
+    { label: 'Aello Nightly', value: 'DC:99:7E:C3:E7:E8:DA:B3:1F:51:B8:0C:90:83:89:B6:99:19:B6:33:BC:60:86:BB:29:CC:6E:A6:39:6E:9E:F9' },
 ]
 
 const TARGETS: { id: Target; label: string }[] = [
