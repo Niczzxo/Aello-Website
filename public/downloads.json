@@ -5,50 +5,51 @@
         "abi": "arm64-v8a",
         "flavor": "github",
         "name": "aello-arm64-v8a.apk",
-        "size": 22610138,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/aello-arm64-v8a.apk"
+        "size": 22464421,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/aello-arm64-v8a.apk"
       },
       {
         "abi": "armeabi-v7a",
         "flavor": "github",
         "name": "aello-armeabi-v7a.apk",
-        "size": 21592904,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/aello-armeabi-v7a.apk"
+        "size": 21447187,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/aello-armeabi-v7a.apk"
       },
       {
         "abi": "arm64-v8a",
         "flavor": "foss",
         "name": "aello-foss-arm64-v8a.apk",
-        "size": 22533618,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/aello-foss-arm64-v8a.apk"
+        "size": 22387905,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/aello-foss-arm64-v8a.apk"
       },
       {
         "abi": "armeabi-v7a",
         "flavor": "foss",
         "name": "aello-foss-armeabi-v7a.apk",
-        "size": 21516384,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/aello-foss-armeabi-v7a.apk"
+        "size": 21370671,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/aello-foss-armeabi-v7a.apk"
       },
       {
         "abi": "universal",
         "flavor": "foss",
         "name": "aello-foss.apk",
-        "size": 30694121,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/aello-foss.apk"
+        "size": 30548408,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/aello-foss.apk"
       },
       {
         "abi": "universal",
         "flavor": "github",
         "name": "aello.apk",
-        "size": 30770641,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/aello.apk"
+        "size": 30624924,
+        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/aello.apk"
       }
     ],
-    "checksums_url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.5/checksums.txt",
-    "published": "2026-11-03T02:55:46Z",
-    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.5",
-    "tag": "v3.0.5",
-    "version": "3.0.5"
+    "checksums_url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.6/checksums.txt",
+    "published": "2026-11-03T05:25:09Z",
+    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.6",
+    "tag": "v3.0.6",
+    "version": "3.0.6",
+    "version_code": 25
   },
   "desktop": {
     "assets": [
