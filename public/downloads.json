@@ -1,54 +1,11 @@
 {
   "android": {
-    "assets": [
-      {
-        "abi": "arm64-v8a",
-        "flavor": "github",
-        "name": "aello-arm64-v8a.apk",
-        "size": 22609512,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/aello-arm64-v8a.apk"
-      },
-      {
-        "abi": "armeabi-v7a",
-        "flavor": "github",
-        "name": "aello-armeabi-v7a.apk",
-        "size": 21592278,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/aello-armeabi-v7a.apk"
-      },
-      {
-        "abi": "arm64-v8a",
-        "flavor": "foss",
-        "name": "aello-foss-arm64-v8a.apk",
-        "size": 22532996,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/aello-foss-arm64-v8a.apk"
-      },
-      {
-        "abi": "armeabi-v7a",
-        "flavor": "foss",
-        "name": "aello-foss-armeabi-v7a.apk",
-        "size": 21515762,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/aello-foss-armeabi-v7a.apk"
-      },
-      {
-        "abi": "universal",
-        "flavor": "foss",
-        "name": "aello-foss.apk",
-        "size": 30693499,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/aello-foss.apk"
-      },
-      {
-        "abi": "universal",
-        "flavor": "github",
-        "name": "aello.apk",
-        "size": 30770015,
-        "url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/aello.apk"
-      }
-    ],
-    "checksums_url": "https://github.com/Niczzxo/Aello-Native/releases/download/v3.0.4/checksums.txt",
-    "published": "2026-11-02T20:52:07Z",
-    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.4",
-    "tag": "v3.0.4",
-    "version": "3.0.4"
+    "assets": [],
+    "checksums_url": null,
+    "published": "2026-11-02T23:21:29Z",
+    "release_url": "https://github.com/Niczzxo/Aello-Native/releases/tag/v3.0.5",
+    "tag": "v3.0.5",
+    "version": "3.0.5"
   },
   "desktop": {
     "assets": [
