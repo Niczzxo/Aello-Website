@@ -123,9 +123,9 @@
     "version": "0.1.0-beta3"
   },
   "izzy": {
-    "version": "3.0.0",
-    "version_code": "19",
-    "apk_url": "https://apt.izzysoft.de/fdroid/repo/io.github.aedev.flow_19.apk",
+    "version": "3.0.5",
+    "version_code": "20",
+    "apk_url": "https://apt.izzysoft.de/fdroid/repo/io.github.aedev.flow_20.apk",
     "page_url": "https://apt.izzysoft.de/packages/io.github.aedev.flow"
   },
   "extension": {
